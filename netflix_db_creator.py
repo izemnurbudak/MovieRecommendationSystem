@@ -10,7 +10,7 @@ fake = Faker()
 conn = psycopg2.connect(
     dbname="netflix_db",
     user="postgres",
-    password="2228",
+    password="0000",
     host="localhost"
 )
 cur = conn.cursor()
